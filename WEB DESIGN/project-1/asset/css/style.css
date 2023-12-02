@@ -1,0 +1,571 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+}
+
+.logo img {
+    height: 80px;
+    width: 180px;
+    padding: 20px;
+}
+
+.nav li {
+    list-style: none;
+    float: left;
+    margin-left: 15px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    align-items: center;
+    padding-bottom: 20px;
+    display: flex;
+}
+
+.button a {
+    margin-right: 10px;
+    color: aliceblue;
+}
+
+.bookbutton {
+    padding: 15px 20px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(245, 89, 32);
+}
+
+/* hero section  */
+.hero-slider {
+    position: relative;
+    max-width: 100%;
+    height: 700px;
+    background-position: bottom;
+    background-size: cover;
+}
+.hero-content {
+    position: absolute;
+    width: 600px;
+    top: 15%;
+    right: 15px;
+    text-align: center;
+    color: aliceblue;
+}
+.hero-content img{
+    margin-bottom: 25px;
+}
+.hero-content h1{
+    font-size: 50px;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom:40px;
+}
+.hero-content p{
+    font-weight: 500px;
+    line-height: 24px;
+    margin-bottom: 40px;
+}
+.hero-content a{
+    text-decoration: none;
+    color:aliceblue;
+    height: 20px;
+    width: 20px;
+    border: 1px solid wheat;
+    padding: 10px 30px;  
+}
+
+/* fectory secton  */
+.products{
+    height: 500px;
+    width: 100%;
+    background-color: rgb(17,13,9);
+    display: flex;
+    
+}
+.mainbox-1{
+    height: 400px;
+    width: 1300px;
+    display: flex;
+    background-color: black;
+    justify-content: center;  
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+
+}
+.img-1{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(17,13,9);
+    margin: 0 auto;
+    border-radius: 50%;
+}
+.img-1 img{
+    width: 150px;
+    height: 150px;
+}
+.box-1{
+    font-family: 'open sans', sans-serif;
+    color: aliceblue;
+    text-align: center;
+    padding: 30px;
+}
+.box-1 p{
+    padding: 0 20px;
+    letter-spacing: 1px;
+}
+.box-1 h2{
+    color:rgb(153,104,66);
+    font-weight: 100;
+    font-size: 15px;
+}
+.box-1 h3{
+    letter-spacing: 1px;
+    font-weight: 150;
+}
+
+
+/* coffee herald secton  */
+.mainbox-2{
+    max-width: 100%;
+    background-size: cover;
+    background-position: left;
+    padding: 80px 0;    
+    margin-bottom: 80px;  
+     
+}.title{
+    margin-left: 25px;
+}
+.box-2{
+    text-align: center;
+}
+.box-2 h1{
+    font-size: 30px;
+    font-weight: 400;
+    margin: 0;
+}
+.box-2 p{
+    letter-spacing: 1px;
+    line-height: 20px;
+    color: #262626;
+    font-family: 'open sans', sans-serif;
+    margin-bottom: 50px;
+}
+.photo{
+    display: flex;
+    justify-content: center;   
+}
+.img-2 img{
+    height: 300px;
+    width: 350px;
+}
+.photo .title p{
+    height: 110px;
+    width:200px;   
+    color: #262626;
+    font-family: 'open sans', sans-serif;
+    margin-bottom: 60px;
+}
+.photo .title a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;   
+}
+
+/* coffe image secton  */
+.logo-3{
+    width: 100%;
+    height: auto;
+    padding: 90px 0;
+}
+
+.coffee-logo{
+    text-align: center;
+}
+
+/* menu secton  */
+.mainbox-4{
+    background-color: #262626;   
+    text-align: center; 
+    margin: 0;
+    padding: 30px ;  
+}
+
+.mainbox-4 h6{
+    color: rgb(228, 85, 34);
+    margin: 0;  
+}
+.mainbox-4 h2{
+    color: aliceblue;
+}
+
+.content{
+padding: 20px;
+
+}
+.black-theme{
+   background-image: url(../image/asset/sec4bg.png); 
+   background-size: cover;
+   height: auto;
+   background-color: black;  
+}
+.left-menu{
+    width: 400px;
+    padding: 40px;
+}
+.right-menu{
+    width: 400px;
+    padding: 40px;
+}
+
+.menu-list{
+    display: flex;
+    justify-content: center;
+}
+.heading h3{
+    color: aliceblue;
+    margin: 0;
+}
+.heading h5{
+    color: dimgrey;
+    margin: 0;
+}
+
+.price{
+   position: absolute;
+   color: rgb(228, 85, 34);
+    top: 8px;
+    right: 0;
+}
+.heading{
+    position: relative;
+    align-items: center;
+    margin-bottom: 15px;
+    text-align: left;
+    
+}
+.price::before{ 
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 110px;
+    background-color: rgb(228, 85, 34);
+    bottom: 10px;
+    left: -120px;
+}
+.black-theme a{
+    line-height: 120px;
+    text-decoration: none;
+    color: white;
+    border: 1px solid rgb(228, 85, 34);
+    padding: 0px;
+    padding: 20px;
+    background-color: #262626;
+}
+
+/* counter secton  */
+.mainbox-5{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding: 30px;   
+}
+.counter-details{
+    text-align: center;
+    margin: 0 50px;
+
+}
+.counter-details h1{
+    color: coral;
+    font-size: 50px;
+    font-weight: 100;
+}
+.counter-details p{
+    color: dimgrey;
+}
+
+/* hero secton  */
+.mainbox-6{
+    background-color: #262626;
+    padding: 50px;
+}
+.team {
+    text-align: center;
+}
+.team h5{
+    margin: 0;
+    color: coral;
+    margin-bottom: 15px;
+}
+.team h2{
+    font-size: 30px;
+    color: white;
+    font-weight: 100;
+    margin: 0;
+    margin-bottom: 15px;
+}
+.image img{
+    width: 300px;
+    height: auto;
+    margin: 50px;    
+}
+.image{
+    position: relative;
+}
+.team-member{
+    display: flex;
+    justify-content: center;
+}
+.chef{
+    position: absolute;
+    bottom: 0;
+    left: 25%;
+    background-color: black;
+    padding: 20px 40px;
+    text-align: center;    
+}
+.chef h3{
+    color: white;
+    margin: 0;
+    font-weight: 200;
+    letter-spacing: 1px;  
+    margin-bottom: 5px;
+}
+.chef h2{
+    color: coral;
+    font-size: small;
+    margin: 0;
+}
+
+
+/* logo secton  */
+.mainbox-7{
+    padding: 90px;
+    max-width: 100%;
+}
+.logo-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logos{
+    width: 200px;
+    height: 80px;
+    position: relative;
+}
+.logo-1{
+    width: auto;
+    height: auto;
+    position: absolute;
+    opacity: 1;
+    transition: 1s;
+}
+.logo-1:hover{
+    opacity: 0;
+}
+.logos img{
+    width: 200px;
+    height: 80px;
+}
+
+/* reserve secton  */
+.mainbox-8{
+    background-color: #262626;
+}
+.top{
+    display: flex;  
+    justify-content: space-evenly; 
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.drink img{
+    height: 400px;
+    width: 350px;
+    margin-top: 200px;    
+}
+.food img{
+    height: 400px;
+    width: 350px;  
+}
+.top h2{  
+    margin: 0;  
+    color: coral;
+    font-size: medium;
+}
+.top h3{  
+    margin : 0;  
+    color:wheat;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+}
+form{
+    background-color: black;
+    padding: 25px;
+    width: 200px;
+    height: auto;
+}
+input{
+    background-color: transparent;
+    border: none;
+    color: aliceblue;
+    text-align: left;
+    width: 200px;
+    height: 15px;
+    margin-top: 25px;
+}
+form h3{
+    color: coral;
+}
+.list-item{ 
+    text-align: left;
+    width: 200px;
+    height: 20px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    margin-top: 20px;
+}
+hr{
+    margin: 0;
+}
+.img-8 img{
+    height: 400px;
+    margin-right: 50px;
+}
+
+.facts{
+    margin-left: 50px;
+    text-align: left;
+}
+.facts h5{
+    color: coral;
+    font-size: 20px;
+    font-family: 'Marcellus',serif; 
+}
+.facts h3{
+    color: white;
+}
+.number{
+    float:left ;
+    margin-right: 50px;
+    text-align: center;
+}
+.number h2{
+    color: coral;
+    font-size: 30px;
+    margin: 0;
+    
+}
+.number h3{
+    color: white;
+    margin: 0;
+    font-family: 'Marcellus',serif;     
+}
+
+form a{
+    display: inline-block;
+    text-decoration: none;
+    color: aliceblue;
+    padding: 15px 35px;
+    background-color: coral;
+    
+}
+
+/* footer secton  */
+.footer{    
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    padding: 50px;
+}
+.footer-logo {
+    text-align: center;  
+}
+.contact{
+    color: white;
+}
+
+.footer-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact ul {
+    padding: 0;
+    margin: 0;
+}
+.contact li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+.contact a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.contact i{
+    color: coral;
+    margin-right: 5px;
+}
+
+.middle{
+    text-align: center;
+}
+.middle p{
+    color: aliceblue;
+}
+.middle ul{
+    padding: 0 150px;
+    margin: 0;
+}
+.middle li{
+    list-style: none;
+    float: left;
+    text-align: center;
+    margin: 0 10px; 
+}
+.middle a{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 50%;
+    line-height: 30px;
+    color: white;
+    font-size: 12px;
+}
+
+.working{
+    color: white;
+    text-align: right;
+}
+.working ul{
+    margin: 0;
+    padding: 0;
+}
+.working li{
+    list-style: none;
+}
+.working span{
+    color:coral;
+}

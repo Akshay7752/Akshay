@@ -1,0 +1,200 @@
+/* CSS PSEUDO CLASS */
+/* body{
+  accent-color: red;
+} */
+
+input[type=checkbox]{
+  accent-color: rgb(30, 255, 0);
+}
+
+
+/*
+        :disabled
+        :enabled(default)
+        ::placeholder
+        :checked
+        :focus
+        :hover
+        :required
+        ::marker
+ */
+
+
+.input-1::placeholder {
+  color: rgb(72, 255, 0);
+  text-decoration: underline;
+}
+input:checked {
+  height:20px;
+  width: 20px;
+}
+
+/* input:focus {
+  border-color: yellow;
+  outline: 5px solid green;
+  border-radius: 10px;
+}
+input:hover {
+  border: 5px solid red;
+  outline: 2px solid rgb(214, 11, 136);
+}  */
+/* ol li::marker {
+  color: rgb(62, 204, 6);
+} */
+
+/* 
+    :empty
+    :invalid
+    :read-only
+    :read-write
+    :root
+    :target
+    :valid
+    :lang()  
+*/
+div:empty {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(0, 113, 128);
+  border: 2px solid green;
+}
+
+input:invalid { 
+  border: 3 px solid red;
+}
+
+input:valid {
+  outline: 2px solid green;
+}
+
+*:read-only {
+  font-size: 10px;
+  color: rgb(8, 0, 83);
+}
+:root {
+  --color-1: yellow;
+  --color-2: green;
+}
+.boxx-1 {
+  height: 100px;
+  width: 100px;
+  background-color: var(--color-2);
+}
+
+[target="_blank"] {
+  color: rgb(238, 9, 97);
+  text-decoration: underline;
+}
+
+p:lang("en") {
+  color: rgb(68, 240, 45);
+  background-color: rgb(51, 173, 167);
+}
+
+/* CSS PSEUDO CLASS */
+/* :first-child
+        :first-of-type
+        :last-child
+        :last-of-type
+        :not()
+        :nth-child()
+        :nth-last-child()
+        :nth-last-of-type()
+        :nth-of-type()
+        :only-of-type
+        :only-child */
+
+/* h1:only-child{
+        color: yellow;
+        background-color: green;
+    }
+    p:not(h1){
+        color: yellow;
+        background-color: green;
+    } */
+
+/* p:first-child{
+        color: yellow;
+        background-color: green;
+    } */
+/* h1:first-of-type{
+        color: yellow;
+        background-color: green;
+    } */
+/* p:last-child{
+        color: yellow;
+        background-color: green;
+    } */
+/* p:last-of-type{
+        color: yellow;
+        background-color: green;
+    } */
+/* p:nth-child(2){
+        color: yellow;
+        background-color: green;
+    } */
+/* h1:nth-last-child(4){
+        color: yellow;
+        background-color: green;
+    } */
+/* h1:nth-last-of-type(2){
+        color: yellow;
+        background-color: green;
+    } */
+/* h1:nth-of-type(3){
+        color: yellow;
+        background-color: green;
+    } */
+/* h1:only-of-type{
+        color: yellow;
+        background-color: green;
+    } */
+/* p:only-child{
+        color: yellow;
+        background-color: green;
+    } */
+
+/* CSS PSEUDO ELEMENT */
+/* 
+                ::after
+                ::before
+                ::first-letter
+                ::first-line
+                ::selection 
+            */
+
+/* css after and before */
+/* h1::before{
+                content: "zdvfbgnbgn";
+                background-color: red;
+                height: 100px;
+                width: 100px;
+                color: yellow;
+            }
+    
+            .shadow-1{
+                height: 200px;
+                width: 200px;
+                background-color: green;
+                border: 10px solid yellow;
+            } */
+
+h1::first-letter{
+                font-size: 20px;
+                color: blueviolet;
+                text-decoration: underline;
+            }
+            h1::first-line{
+                font-size: 20px;
+                color: blueviolet;
+                text-decoration: underline;
+            }
+            p::selection{
+                background-color: yellow;
+                color: blue;
+              }
+           
+
+
+
+          

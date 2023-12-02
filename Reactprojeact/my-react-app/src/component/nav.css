@@ -1,0 +1,14 @@
+.h{
+    background-color: aqua;
+}
+.w{
+   color: blue;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+}
+.po{
+    color: red;
+    text-shadow: 15px;
+}

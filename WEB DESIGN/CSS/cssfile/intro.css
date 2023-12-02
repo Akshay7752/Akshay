@@ -1,0 +1,66 @@
+pre {
+    color: yellow;
+    border: 1px solid red;
+    background-color: blue;
+}
+
+h4 {
+    text-align: left;
+    text-decoration: line-through;
+}
+
+.element-1 {
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet;
+}
+
+.element-1 {
+    background-color: aqua;
+    height: 300px;
+    width: 500px;
+}
+
+.element-1 {
+    height: 50px
+}
+
+.heading-1 {
+    text-decoration: underline;
+    color: grey;
+}
+
+.element-2 .heading-1 {
+    color: green;
+}
+
+.text .element-2 .heading-1 {
+    color: pink;
+}
+
+.text .heading-1 {
+    color: brown;
+}
+
+.element-3 .heading-1 {
+    text-decoration: underline;
+    color: blue;
+}
+
+.heading-2 {
+    color: slateblue;
+    background-color: yellow;
+}
+
+.heading-2 {
+    color: blue;
+    background-color: goldenrod;
+}
+
+.para-11 {
+    color: pink !important;
+}
+
+.para-11 {
+    color: red !important;
+}

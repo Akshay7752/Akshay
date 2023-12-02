@@ -1,0 +1,378 @@
+/* .mainbox {
+    display: flex;
+    height: 600px;
+    width: 1400px;
+    border: 2px solid blue;
+    margin-top: 10px;
+    position: relative;
+}
+
+.box-1 {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    position: absolute;
+
+}
+.boxx-1{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+  
+}
+
+.box-2 {
+    height: 100px;
+    width: 100px;
+    background-color: orangered;
+    position: absolute;
+    right: 0;
+
+}
+.boxx-2 {
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+
+}
+
+.box-3 {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    position: absolute;
+    bottom: 0;
+
+}
+.boxx-3 {
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+
+}
+
+.box-4 {
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+}
+.boxx-4 {
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.box-5 {
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+.boxx-5 {
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.box-6 {
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+.boxx-6 {
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.box-7 {
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+
+}
+.boxx-7 {
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.box-8 {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+
+}
+.boxx-8 {
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+.box-9 {
+    height: 100px;
+    width: 100px;
+    background-color: coral;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+
+
+}
+.boxx-9 {
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+} */
+
+
+/* pitch practice */
+/* body{
+    margin: 0px;
+} */
+/* .pitch{
+    border-bottom: 5px solid black;
+    padding-bottom: 50%;
+    position: relative;
+}
+.ball{
+    height: 50px;
+    width: 50px;
+    background-color: green;
+    border-radius: 50%;
+    color: aqua;
+    text-align: center;
+    line-height: 50px;
+    animation-name: kishan;
+    position: absolute;
+    animation-duration: 10s;
+    bottom: 0;
+    right: 0;
+    animation-iteration-count:infinite ;
+    animation-timing-function: linear; 
+
+
+}
+@keyframes kishan{
+    0%{ 
+        top:0;
+        left:0;
+        animation-timing-function: ease-in;
+        transform: rotate(-200deg);
+        
+       
+    }
+    15%{
+        top: 95%;
+        left: 10%;
+        animation-timing-function: ;
+    }
+    25%{
+        top: 20%;
+        left: 20%;
+        animation-timing-function: linear;
+    }
+    35%{
+        top: 95%;
+        left: 30%;
+        animation-timing-function: linear;
+    }
+    45%{
+        top: 35%;
+        left: 40%;
+        animation-timing-function: linear;
+    }
+    55%{
+        top: 95%;
+        left: 50%;
+        animation-timing-function: linear;
+    }
+    65%{
+        top: 45%;
+        left: 60%;
+        animation-timing-function: linear;
+    }
+    75%{
+        top: 95%;
+        left: 70%;
+        animation-timing-function: linear;
+    }
+    85%{
+        top: 55%;       
+        left: 80%;
+        animation-timing-function: linear;
+    }
+    95%{
+        top: 95%;
+        left: 90%;
+        animation-timing-function: linear;
+       
+    }
+    100%{
+        left: 100%;
+        animation-timing-function: linear;
+    }  
+
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@200;300;500;600;700;800&display=swap');
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: large;
+    margin: 20px;
+    padding: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    align-items: center;
+    display: flex;
+}
+
+ul li {
+    display: inline;
+    padding: 10px;
+
+}
+
+li:nth-child(1) a {
+    border: 1px solid rgba(94, 91, 91, 0.356);
+    padding: 10px 12px;
+    border-radius: 100%;
+    background-color: hotpink;
+}
+
+li:nth-child(1):hover a {
+    background-color: blue;
+    color: aliceblue
+}
+
+li:nth-child(2) a {
+    padding: 10px 40px;
+    text-decoration: none;
+    border: 2px solid orangered;
+    border-radius: 20px;
+    background-color: hotpink;
+    color: white;
+}
+
+li:nth-child(2):hover a {
+    background-color: orangered;
+    color: white;
+}
+
+.link {
+    display: flex;
+}
+
+.a1:hover {
+
+    transform: rotate(360deg);
+    transition: 3s;
+    
+}
+
+.a2:hover {
+    transform: rotate(360deg);
+    transition: 3s;
+}
+
+.a3:hover {
+    transform: rotate(360deg);
+    transition: 3s;
+}
+
+.a4:hover {
+    transform: rotate(360deg);
+    transition: 3s;
+}
+
+.a5:hover {
+    transform: rotate(360deg);
+    transition: 3s;
+}

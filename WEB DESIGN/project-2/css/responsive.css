@@ -1,0 +1,56 @@
+
+@media  (max-width:1200px){
+    .navbar{
+        position: relative;
+        width: 100%;
+        display: block;
+    }
+    .font-1{
+        width:200px;
+        padding: 0;
+    }
+    .nav-icon{
+        display: none;
+    }
+    .img-logo{
+        float: right;
+        position: absolute;
+        top: 40%;
+        right: 5%;
+    }
+    /* .hero{
+        width: 100%;
+    } */
+    .content{
+        padding: 0;
+    }
+}
+@media (max-width:992px){
+    .bar-name{
+        display: none ;
+    }
+    .nav-icon{
+        display: none;
+    }
+    .font-1{
+        order: 2;
+    }
+    .nav{
+        order: 1;
+    }
+}
+
+@media(max-width:768px){
+
+}
+
+
+
+ 
+
+
+@media(max-width:576px){
+
+}
+
+

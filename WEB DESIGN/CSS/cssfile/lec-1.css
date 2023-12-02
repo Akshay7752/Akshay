@@ -1,0 +1,169 @@
+@import '../cssfile/lec-1.css';
+
+body{
+    font-family: 'Lobster';
+}
+
+/* body{
+    background-color: aqua;
+}
+p{
+    color:yellow;
+}
+.para-11 p{
+    color: red;
+}
+.para-22 p{
+    color: blueviolet;
+}
+.para-11 .para-33 {
+    color: blue;
+} */
+
+
+/* p{
+    color: springgreen;
+}
+.div-3{
+    color: red;
+}
+.div-1{
+    color: blue;
+    background-color: yellow;
+} */
+
+/* id selector */
+/* #box-1{
+    background-color: yellowgreen;
+}
+#box-1{
+    background-color: violet;
+}
+#box-2{
+    background-color: red;
+} */
+
+/* combinator selector */
+/* .demo-1 .back-1{
+    color: blue;
+    font-size: 20px;
+    background-color: aqua;
+} */
+
+/* child selector */
+/* .demo-2 > p{
+    color: brown;
+    text-decoration: line-through   ;
+} */
+
+/* adjuacent sibling selector */
+/* p+h1{
+    color: blueviolet;
+    text-transform: capitalize;
+    background-color: yellow;
+} */
+
+/* general sibling selector */
+    /* .demo-4 ~ p{
+        color: rgb(138,8,8);
+        text-transform: capitalize;
+        text-decoration: underline  ;
+    } */
+
+/* link selector */
+/* .option-1:link{
+    color: red   ;
+}
+a:active{
+    color: green;
+    text-decoration: none;
+}
+a:link{
+    color:red;
+}
+a:hover{
+    background-color: violet;
+    text-decoration: dotted;    
+    text-transform: capitalize;
+}
+.option-1:link{
+    color: royalblue;
+    background-color: yellow;
+    
+} */
+
+/* CSS color */
+/* .box-1{
+    height: 100px;
+    width: 200px;
+    background-color: rgb(0,0,255);
+}
+.box-2{
+    height: 100px;
+    width: 200px;
+    background-color: rgb(48,189,57,1);
+}
+.box-3{
+    height: 100px;
+    width: 200px;
+    background-color:#ffffff;
+}
+.box-4{
+    height: 100px;
+    width: 200px;
+    background-color: hsl(0,100%,50%);
+} */
+
+/* css background properties */
+/* .back-1{
+    height: 100px;
+    width: 200px;
+    background-color: aqua;
+    color: hsl(240deg,100%,100%);
+}
+.back-2{
+    height: 1000px;
+    width: 2000px;
+    background-image: url("../logo-design-template-colorful-hexagon-infinity-loop-shape-business-technology-abstract-symbol-letter-g-icon-vector.jpg");
+    background-repeat: repeat;
+    background-size:auto;
+    background-position: left;
+    background-attachment: fixed;
+}    */
+
+/* css gradient */
+/* .linear-gradient-1{
+    height: 50px;
+    width: 100%;
+    background: linear-gradient(to top,red,rgb(140,255,255));
+}
+.diagonal-linear-gradient{
+    height: 50px;
+    width: 100%;
+    background: linear-gradient(to top left,red,rgb(255, 14, 223));
+}
+.linear-gradient-rainbow{
+    height: 50px;
+    width: 100%;
+    background: linear-gradient(to left,red,orange,yellow,blue,green,indigo,violet)
+}
+.radial-gradient-simple{
+    height: 100vh;
+    width: 100%;
+    background: radial-gradient(red,orange,yellow,blue,green,indigo,violet)
+}
+.radial-gradient{
+    height: 100vh;
+    width: 100%;
+    background: radial-gradient(circle farthest-corner at right,red,blue)
+}
+.bullseye{
+    height: 100vh;
+    width: 100%;
+    background: repeating-radial-gradient(red,red 15%,white 10%,white 20%);
+}
+.warning{
+    height: 100vh;
+    width: 100%;
+    background: repeating-linear-gradient(10deg,yellow,yellow 10%,black, 10%, black 20%);
+} */

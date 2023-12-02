@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer components{
+    .button{
+        @apply border px-3 py-3 bg-purple-600 text-xl text-white ml-5 w-32
+        
+        
+    }
+}
