@@ -1,0 +1,141 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Basier Square';
+}
+body{
+    margin: 0;
+}
+
+/* Css Overlay Method */
+/* .center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+img{
+    height: inherit;
+    width: inherit;
+    object-fit: cover;
+    position: absolute;
+}
+
+.mainbox{
+    height: 500px;
+    width: 500px;
+    overflow: hidden;
+    position: relative;
+}
+
+.overlay{
+    height: inherit;
+    width: inherit;
+    background-color: brown;
+    position: absolute;
+    z-index: 2;
+    opacity: 0.5;
+    display: none;
+    transition-duration: 2s;
+    transition-property: background-color;
+}
+
+.text{
+    height: inherit;
+    width: inherit;
+    color:white;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    z-index: 3;
+}
+
+.mainbox:hover .overlay{
+    display: block;
+}
+.mainbox:hover .text{
+    opacity: 1;
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+    margin: 100px;
+}
+
+.box:hover{
+    height:300px;
+    width: 300px;
+    transition-duration: 1s;
+    transition-property: background-color;
+    background-color: red;
+}
+
+
+
+
+h1{
+    font-size: calc(5vw + 10px);
+}
+
+
+.container{
+    height: 200px;
+    background-color: orange;
+    border:5px solid black;
+    width: calc(100vw - 5%);
+    margin: auto;
+}
+
+
+.masking{
+    -webkit-mask-image: url('fragments-mask.png');
+    mask-image:url('fragments-mask.png');
+    -webkit-mask-size: 70%;
+    mask-size: 70%;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    height: 400px;
+    width: 400px;
+} */
+
+/* Css Max() and Min() */
+
+/* .min-div{
+    height:400px;
+    width: min(50% , 500px);
+    background-color: orange;
+    margin: auto;
+} */
+
+.tooltip{
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext{
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+} 
