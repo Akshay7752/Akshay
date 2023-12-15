@@ -214,7 +214,7 @@
 
 // {
 //     let a = 17;
-//     let b = 100;
+//     let b = 1;
 
 //     let number = (a > b) ? () => console.log('large : ' + a) : () => console.log('large : ' + b);
 
@@ -234,26 +234,26 @@
 
 // 15.) Find the grade for input marks
 
-// {
-//     function grade(marks) {
-//         if (marks > 80) {
-//             console.log("marks : " + marks + " grade A");
-//         }
-//         else if (marks > 60 && marks <= 80) {
-//             return console.log("marks : " + marks + " grade B");
-//         }
-//         else if (marks > 40 && marks <= 60) {
-//             return console.log("marks : " + marks + " grade C");
-//         }
-//         else if (marks > 32 && marks <= 40) {
-//             return console.log("marks : " + marks + " grade D");
-//         }
-//         else {
-//             return console.log("marks : " + marks + " Fail");
-//         }
-//     }
+{
+    function grade(marks) {
+        if (marks > 80) {
+            console.log("marks : " + marks + " grade A+");
+        }
+        else if (marks > 60 && marks <= 80) {
+            return console.log("marks : " + marks + " grade B");
+        }
+        else if (marks > 40 && marks <= 60) {
+            return console.log("marks : " + marks + " grade C");
+        }
+        else if (marks > 32 && marks <= 40) {
+            return console.log("marks : " + marks + " grade D");
+        }
+        else {
+            return console.log("marks : " + marks + " Fail");
+        }
+    }
 
-//     let x = prompt("enter the mark");
+    let x = prompt("enter the mark");
 
-//     grade(x);
-// }
+    grade(x);
+}

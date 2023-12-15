@@ -44,18 +44,20 @@
 
 {
     // constructor function
-    function Person (name) {
+    // class Person {
+    //     constructor(name) {
 
-        // assigning  parameter values to the calling object
-        this.name = name;
-    
-        // defining method
-        this.greet = function () {
-            return ('Hello' + ' ' + this.name);
-        }
-    }
-    console.log(greet.name);
-    Person(greet)
+    //         // assigning  parameter values to the calling object
+    //         this.name = name;
+
+    //         // defining method
+    //         this.greet = function () {
+    //             return ('Hello' + ' ' + this.name);
+    //         };
+    //     }
+    // }
+    // console.log(name);
+    // Person(greet)
 }
 
 {
@@ -82,14 +84,14 @@
 // Hoisting
 
 {
-    // // accessing class
-    // const p = new Person(); // ReferenceError
+    // accessing class
+    const p = new Person(); // ReferenceError
 
-    // // defining class
-    // class Person {
-    //     constructor(name) {
-    //         this.name = name;
-    //     }
-    // }
-    // console.log();
+    // defining class
+    class Person {
+        constructor(name) {
+            this.name = name;
+        }
+    }
+    console.log();
 }
