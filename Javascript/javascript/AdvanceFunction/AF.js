@@ -8,23 +8,25 @@
 
 // 1: apply() Method to call a Function
 
-// {
-//     // object definition
-//     const personName = {
-//         firstName: "Taylor",
-//         lastName: "Jackson",
-//     };
+{
+    // object definition
+    const personName = {
+
+        
+        firstName: "Taylor",
+        lastName: "Jackson",
+    };
     
-//     // function definition
-//     function greet(wish, message) {
-//         return `${this.firstName}, ${wish}. ${message}`;
-//     }
+    // function definition
+    function greet(wish, message) {
+        return `${this.firstName}, ${wish}. ${message}`;
+    }
     
-//     // calling greet() function by passing two arguments
-//     let result = greet.apply(personName, ["Good morning", "How are you?"]);
+    // calling greet() function by passing two arguments
+    let result = greet.apply(personName, ["Good morning", "How are you?"]);
     
-//     console.log(result);
-// }
+    console.log(result);
+}
 
 // {
 //     const add = {
@@ -47,6 +49,7 @@
     // // object definition
     // const car = {
     //     name: "BMW",
+    //     color:"red",
     //     description() {
     //     return `The ${this.name} is of ${this.color} color.`;
     //     },
@@ -60,7 +63,7 @@
     
     // // bike is borrowing description() method from car using apply() 
 
-    // let result = car.description.apply(bike);
+    // let result = car.description.apply(car);
     
     // console.log(result);
 }
@@ -129,4 +132,5 @@
 
 //     console.log(result);
 // }
+
 
