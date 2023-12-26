@@ -14,8 +14,8 @@ const Cakecontainer = (props) => {
           <button onClick={props.BuyCake } className="rounded-md h-10 w-28 text-white hover:bg-orange-500 mt-5  bg-violet-700 hover:duration-700">
             Buy cake
           </button>
-          <h1 className="text-3xl mt-10 font-bold">Number of chocolate : <span className="text-cyan-700 text-4xl"> {props.numOfChocolate}</span></h1>
-          <button onClick={props.BuyChocolate} className="rounded-md h-10 w-28 text-white hover:bg-orange-500 mt-5  bg-violet-700 hover:duration-700">
+          <h1 className="text-3xl mt-10  font-bold">Number of chocolate : <span className="text-cyan-700 text-4xl"> {props.numOfChocolate}</span></h1>
+          <button onClick={props.BuyChocolate} className="rounded-md h-10  w-28 text-white hover:bg-orange-500 mt-5  bg-violet-700 hover:duration-700">
             Buy chocolate
           </button>
         </div>
