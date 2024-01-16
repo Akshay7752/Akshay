@@ -12,8 +12,7 @@
 //             text = "Wrong Choice!!!";
 //     }
 //     console.log(text);
-// }uuuuuuu
-
+// }
 
 
 
